@@ -10,3 +10,7 @@ All the links have been attached where ever required.
 On the vscode, click on go live. Site will get host at http://127.0.0.1:5500/
 
 
+
+https://user-images.githubusercontent.com/100477248/223847222-9a370bd4-b471-494e-bcc9-ab47274718dd.mp4
+
+
