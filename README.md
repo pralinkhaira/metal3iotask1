@@ -1,13 +1,12 @@
 <!---->
-<div align="center">
-<img src="./ReadMeFiles/app.jpg" align="center">
-</div>
 
-# UberEats - Responsive App Landing Page
+# Metal3io- Responsive App Landing Page
 
-<p>Esse projeto foi feito por: <strong>Thiago Silva Lopes</strong>, em 01/2022,</br>
-tendo como base o <a href="https://www.youtube.com/watch?v=5RIFrZEjURA" target="_blank">tutorial</a>
-do canal do Youtube: <a href="https://www.youtube.com/channel/UCgkDs77BoEhMIgRUB4MKrtQ" target="_blank">
-Bedimcode</a>.</p>
+<p>Metal3-io is an open source project that aims to provide a declarative approach and a toolset for managing bare metal infrastructure for bare metal using Kubernetes along with native API for managing bare metal hosts via a provisioning stack that is also running on Kubernetes.</p> 
+A fully responsive simple landing page depicting the aim, components and the mission of the project. 
+All the links have been attached where ever required.
 
-## Demo: https://eats-uber.vercel.app
+## Starting Guide
+On the vscode, click on go live. Site will get host at http://127.0.0.1:5500/
+
+
