@@ -1,29 +1,19 @@
-/*==================== SHOW MENU ====================*/
-const showMenu = (toggleId, navId) => {
-  const toggle = document.getElementById(toggleId),
-    nav = document.getElementById(navId);
+/* Optimize JavaScript performance by removing unused code and comments */
 
-  // Validate that variables exist
-  if (toggle && nav) {
-    toggle.addEventListener("click", () => {
-      // We add the show-menu class to the div tag with the nav_menu class
-      nav.classList.toggle("show-menu");
-    });
-  }
-};
-showMenu("nav-toggle", "nav-menu");
-
-/*==================== REMOVE MENU MOBILE ====================*/
+/* Use of addEventListener instead of inline event handlers */
+const toggle = document.getElementById("nav-toggle");
+const navMenu = document.getElementById("nav-menu");
 const navLink = document.querySelectorAll(".nav_link");
-const linesMobileMenu = document.querySelector(".menu");
+
+toggle.addEventListener("click", () => {
+  navMenu.classList.toggle("show-menu");
+});
 
 function linkAction() {
-  const navMenu = document.getElementById("nav-menu");
-  // When we click on each nav_link, we remove the show-menu class
   navMenu.classList.remove("show-menu");
-  // And also, the class "opened" on each line from the animated hamburguer menu:
   linesMobileMenu.classList.remove("opened");
 }
+
 navLink.forEach((n) => n.addEventListener("click", linkAction));
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
